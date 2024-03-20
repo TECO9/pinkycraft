@@ -1,0 +1,79 @@
+/* Estilos para el header */
+header
+{
+    background-color: #021825;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1
+{
+    font-size: 24px;
+}
+
+/* Estilos para el body */
+body
+{
+    background-color: #467f88;
+    font-family: Arial, sans-serif; /* Fuente de texto predeterminada */
+    margin: 0; /* Elimina el margen predeterminado del body */
+    padding: 0; /* Elimina el relleno predeterminado del body */
+}
+
+/* Estilos para el marco */
+.marco {
+    width: 300px; /* Ancho del marco */
+    height: 150px; /* Altura del marco */
+    margin: 0 auto; /* Centra horizontalmente el marco */
+    padding: 20px; /* Relleno interior del marco */
+    text-align: center; /* Centra el texto dentro del marco */
+    font-family: "AniMe Matrix - MB_EN";
+    font-size: 40px;
+}
+
+.marco p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo dentro del marco */
+}
+
+.descarga
+{
+    position: fixed; /* Posición fija en la pantalla */
+    left: 0; /* Coloca el div en el borde izquierdo */
+    top: 59%; /* Centra verticalmente el div */
+    transform: translateY(-50%); /* Centra verticalmente el div */
+    padding: 20px;
+    font-family: "AniMe Matrix - MB_EN";
+    font-size: 40px;
+    text-align: center;
+}
+
+.descarga p
+{
+    margin: 0; /* Elimina el margen predeterminado del párrafo dentro del marco */
+}
+
+.tutorial
+{
+    position: fixed; /* Posición fija en la pantalla */
+    right: 0; /* Coloca el div en el borde derecho */
+    top: 60%; /* Centra verticalmente el div */
+    transform: translateY(-50%); /* Centra verticalmente el div */
+    padding: 20px;
+    font-family: "AniMe Matrix - MB_EN";
+    font-size: 40px;
+    text-align: center;
+}
+
+img {
+    width: 150px; /* Ancho deseado */
+    height: 150px; /* Altura deseada */
+}
