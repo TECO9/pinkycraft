@@ -31,9 +31,15 @@ body
 
 /* Estilos para el marco */
 .marco {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Añadido para centrar verticalmente */
+    position: fixed; /* Establece la posición fija */
+    top: 50%; /* Posiciona el div a la mitad de la pantalla verticalmente */
+    left: 50%; /* Posiciona el div a la mitad de la pantalla horizontalmente */
+    transform: translate(-50%, -160%); /* Centra el div exactamente */
     width: 300px; /* Ancho del marco */
     height: 150px; /* Altura del marco */
-    margin: 0 auto; /* Centra horizontalmente el marco */
     padding: 20px; /* Relleno interior del marco */
     text-align: center; /* Centra el texto dentro del marco */
     font-family: "AniMe Matrix - MB_EN";
@@ -48,7 +54,7 @@ body
 {
     position: fixed; /* Posición fija en la pantalla */
     left: 0; /* Coloca el div en el borde izquierdo */
-    top: 59%; /* Centra verticalmente el div */
+    top: 65%; /* Centra verticalmente el div */
     transform: translateY(-50%); /* Centra verticalmente el div */
     padding: 20px;
     font-family: "AniMe Matrix - MB_EN";
@@ -65,7 +71,7 @@ body
 {
     position: fixed; /* Posición fija en la pantalla */
     right: 0; /* Coloca el div en el borde derecho */
-    top: 60%; /* Centra verticalmente el div */
+    top: 65%; /* Centra verticalmente el div */
     transform: translateY(-50%); /* Centra verticalmente el div */
     padding: 20px;
     font-family: "AniMe Matrix - MB_EN";
